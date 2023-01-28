@@ -1,0 +1,47 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build active file",
+            "type": "shell",
+            "command": "bash",
+            "args": [
+                "./build.sh"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/scripts"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Run active file",
+            "type": "shell",
+            "command": "bash",
+            "args": [
+                "./run.sh"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/scripts"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Debug active file",
+            "type": "shell",
+            "command": "bash",
+            "args": [
+                "./debug.sh"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/scripts"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

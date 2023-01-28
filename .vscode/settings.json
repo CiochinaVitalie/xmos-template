@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "mic_array_vanilla.h": "c",
+        "stdio.h": "c",
+        "audio_pipeline.h": "c",
+        "platform_init.h": "c"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "version": 4,
+    "configurations": [
+        {
+            "name": "Xcore",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/xcore_sdk/modules/**",
+                "${workspaceFolder}/xcore_sdk/modules/core/modules/clock_control/api",
+                "${workspaceFolder}/xcore_sdk/modules/core/modules/experimental/dsp_filters/api",
+                "${workspaceFolder}/xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/api",
+                "${workspaceFolder}/xcore_sdk/modules/core/modules/l2_cache/lib_l2_cache/lib_l2_cache/api",
+                "${workspaceFolder}/xcore_sdk/modules/core/modules/legacy_compat/api",
+                "${workspaceFolder}/xcore_sdk/modules/core/modules/multitile_support/api",
+                "${workspaceFolder}/xcore_sdk/modules/core/modules/otpinfo/lib_otpinfo/lib_otpinfo/api",
+                "${workspaceFolder}/xcore_sdk/modules/core/modules/random/lib_random/lib_random/api",
+                "${workspaceFolder}/xcore_sdk/modules/core/modules/trycatch/lib_trycatch/lib_trycatch/api",
+                "${workspaceFolder}/xcore_sdk/modules/core/modules/utils/api",
+                "${workspaceFolder}/xcore_sdk/modules/core/modules/xs3_math/lib_xs3_math/lib_xcore_math/api",
+                "${workspaceFolder}/xcore_sdk/modules/io/modules/i2c/api",
+                "${workspaceFolder}/xcore_sdk/modules/io/modules/i2s/api",
+                "${workspaceFolder}/xcore_sdk/modules/io/modules/mic_array/lib_mic_array/api",
+                "${workspaceFolder}/xcore_sdk/modules/io/modules/mic_array/lib_mic_array/api/mic_array/impl",
+                "${workspaceFolder}/xcore_sdk/modules/io/modules/mic_array/lib_mic_array/api/mic_array/etc",
+                "${workspaceFolder}/xcore_sdk/modules/io/modules/mic_array/lib_mic_array/api/mic_array/cpp",
+                "${workspaceFolder}/xcore_sdk/modules/io/modules/mic_array/etc/vanilla",
+                "${workspaceFolder}/xcore_sdk/modules/io/modules/qspi_io/api",
+                "${workspaceFolder}/xcore_sdk/modules/io/modules/spi/api",
+                "${workspaceFolder}/xcore_sdk/modules/io/modules/uart/api",
+                "${workspaceFolder}/xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/api",
+                "${workspaceFolder}/xcore_sdk/modules/sample_rate_conversion/lib_src/lib_src/api",
+                "${workspaceFolder}/xcore_sdk/modules/voice/modules/lib_adec/api",
+                "${workspaceFolder}/xcore_sdk/modules/voice/modules/lib_agc/api",
+                "${workspaceFolder}/xcore_sdk/modules/voice/modules/lib_ic/api",
+                "${workspaceFolder}/xcore_sdk/modules/voice/modules/lib_ns/api",
+                "${workspaceFolder}/xcore_sdk/modules/voice/modules/lib_vnr/api",
+                "${workspaceFolder}/xcore_sdk/modules/xscope_fileio/xscope_fileio/xscope_fileio/api"
+            ],
+            "defines": ["XSCOPE_IMPL","__XC__"],
+            "compilerPath": "../XMOS/XTC/15.1.4/bin/xcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "clang-x64",
+            "compilerArgs": [
+                "-save-temps"
+            ]
+        }
+    ]
+}
