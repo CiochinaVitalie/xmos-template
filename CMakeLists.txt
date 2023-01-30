@@ -62,7 +62,17 @@ target_sources(xmos_project PUBLIC ${APP_SOURCES})
 target_include_directories(xmos_project PUBLIC ${APP_INCLUDES})
 target_compile_definitions(xmos_project PRIVATE ${APP_COMPILE_DEFINITIONS})
 target_compile_options(xmos_project PRIVATE ${APP_COMPILER_FLAGS})
-target_link_libraries(xmos_project PUBLIC core::general io::all core::multitile_support)
+target_link_libraries(xmos_project PUBLIC 
+core::general 
+io::all 
+core::multitile_support
+fwk_voice::aec
+fwk_voice::adec
+fwk_voice::ns
+fwk_voice::agc
+fwk_voice::ic
+lib_xcore_math
+)
 target_link_options(xmos_project PRIVATE ${APP_LINK_OPTIONS})
 
 
