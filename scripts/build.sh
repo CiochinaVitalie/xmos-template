@@ -1,6 +1,6 @@
-
 cd ..
 DIR=`pwd`/build
+echo DIR
 if [ -d "$DIR" ]; then
   # Take action if $DIR exists. #
   echo "${DIR} folder is find"

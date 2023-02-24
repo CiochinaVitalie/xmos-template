@@ -1,0 +1,1830 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "xmos_project.xe"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_options",
+			"target_link_libraries",
+			"target_compile_options",
+			"target_compile_definitions",
+			"target_include_directories",
+			"target_sources",
+			"add_subdirectory"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 83,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 72,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 71,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 69,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-march=xs3a -g"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Os"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-report"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fxscope"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mcmodel=large"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-xcore-fptrgroup"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/home/user/xmos-template/src/config.xscope"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/home/user/xmos-template/XU316-1024-QF60A-C24.xn"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-DDEBUG_PRINT_ENABLE=1"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "DEBUG_PRINT_ENABLE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_SUPPORTS_TILE_0=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_SUPPORTS_TILE_1=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_SUPPORTS_TILE_2=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_SUPPORTS_TILE_3=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_USES_TILE_0=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_USES_TILE_1=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "XUD_CORE_CLOCK=600"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/user/xmos-template/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/clock_control/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/utils/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/utils/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/experimental/dsp_filters/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/xs3_math/lib_xs3_math/lib_xcore_math/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/xs3_math/lib_xs3_math/lib_xcore_math/src/etc/xmath_fft_lut"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/l2_cache/lib_l2_cache/lib_l2_cache/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/legacy_compat/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/otpinfo/lib_otpinfo/lib_otpinfo/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/random/lib_random/lib_random/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/trycatch/lib_trycatch/lib_trycatch/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/trycatch/lib_trycatch/lib_trycatch/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/i2c/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/qspi_io/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/spi/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/uart/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/uart/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/user"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/core"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/i2s/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/mic_array/lib_mic_array/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/multitile_support/api"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				26,
+				27,
+				28,
+				29
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-march=xs3a -g"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Os"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-report"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fxscope"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mcmodel=large"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-xcore-fptrgroup"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/home/user/xmos-template/src/config.xscope"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/home/user/xmos-template/XU316-1024-QF60A-C24.xn"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-DDEBUG_PRINT_ENABLE=1"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-O3 -DREF_CLK_FREQ=100 -fasm-linenum -fcomment-asm -DXUD_FULL_PIDTABLE=1"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "DEBUG_PRINT_ENABLE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_SUPPORTS_TILE_0=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_SUPPORTS_TILE_1=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_SUPPORTS_TILE_2=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_SUPPORTS_TILE_3=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_USES_TILE_0=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_USES_TILE_1=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "XUD_CORE_CLOCK=600"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/user/xmos-template/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/clock_control/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/utils/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/utils/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/experimental/dsp_filters/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/xs3_math/lib_xs3_math/lib_xcore_math/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/xs3_math/lib_xs3_math/lib_xcore_math/src/etc/xmath_fft_lut"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/l2_cache/lib_l2_cache/lib_l2_cache/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/legacy_compat/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/otpinfo/lib_otpinfo/lib_otpinfo/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/random/lib_random/lib_random/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/trycatch/lib_trycatch/lib_trycatch/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/trycatch/lib_trycatch/lib_trycatch/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/i2c/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/qspi_io/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/spi/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/uart/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/uart/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/user"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/core"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/i2s/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/mic_array/lib_mic_array/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/multitile_support/api"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				3,
+				12,
+				13,
+				14,
+				15,
+				17,
+				18
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-march=xs3a -g"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Os"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-report"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fxscope"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mcmodel=large"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-xcore-fptrgroup"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/home/user/xmos-template/src/config.xscope"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/home/user/xmos-template/XU316-1024-QF60A-C24.xn"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-DDEBUG_PRINT_ENABLE=1"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-O3 -DREF_CLK_FREQ=100 -fasm-linenum -fcomment-asm -DXUD_FULL_PIDTABLE=1"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-mno-dual-issue"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "DEBUG_PRINT_ENABLE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_SUPPORTS_TILE_0=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_SUPPORTS_TILE_1=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_SUPPORTS_TILE_2=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_SUPPORTS_TILE_3=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_USES_TILE_0=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_USES_TILE_1=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "XUD_CORE_CLOCK=600"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/user/xmos-template/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/clock_control/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/utils/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/utils/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/experimental/dsp_filters/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/xs3_math/lib_xs3_math/lib_xcore_math/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/xs3_math/lib_xs3_math/lib_xcore_math/src/etc/xmath_fft_lut"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/l2_cache/lib_l2_cache/lib_l2_cache/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/legacy_compat/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/otpinfo/lib_otpinfo/lib_otpinfo/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/random/lib_random/lib_random/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/trycatch/lib_trycatch/lib_trycatch/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/trycatch/lib_trycatch/lib_trycatch/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/i2c/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/qspi_io/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/spi/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/uart/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/uart/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/user"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/core"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/i2s/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/mic_array/lib_mic_array/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/multitile_support/api"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				4,
+				7,
+				8,
+				10,
+				11,
+				16
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-march=xs3a -g"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Os"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-report"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fxscope"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mcmodel=large"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-xcore-fptrgroup"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/home/user/xmos-template/src/config.xscope"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/home/user/xmos-template/XU316-1024-QF60A-C24.xn"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-DDEBUG_PRINT_ENABLE=1"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-O3 -DREF_CLK_FREQ=100 -fasm-linenum -fcomment-asm -DXUD_FULL_PIDTABLE=1"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-mno-dual-issue -Wno-return-type"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "DEBUG_PRINT_ENABLE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_SUPPORTS_TILE_0=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_SUPPORTS_TILE_1=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_SUPPORTS_TILE_2=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_SUPPORTS_TILE_3=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_USES_TILE_0=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_USES_TILE_1=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "XUD_CORE_CLOCK=600"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/user/xmos-template/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/clock_control/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/utils/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/utils/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/experimental/dsp_filters/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/xs3_math/lib_xs3_math/lib_xcore_math/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/xs3_math/lib_xs3_math/lib_xcore_math/src/etc/xmath_fft_lut"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/l2_cache/lib_l2_cache/lib_l2_cache/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/legacy_compat/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/otpinfo/lib_otpinfo/lib_otpinfo/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/random/lib_random/lib_random/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/trycatch/lib_trycatch/lib_trycatch/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/trycatch/lib_trycatch/lib_trycatch/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/i2c/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/qspi_io/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/spi/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/uart/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/uart/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/user"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/core"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/i2s/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/mic_array/lib_mic_array/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/multitile_support/api"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				5
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-march=xs3a -g"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Os"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-report"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fxscope"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mcmodel=large"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-xcore-fptrgroup"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/home/user/xmos-template/src/config.xscope"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/home/user/xmos-template/XU316-1024-QF60A-C24.xn"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-DDEBUG_PRINT_ENABLE=1"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-O3 -DREF_CLK_FREQ=100 -fasm-linenum -fcomment-asm -DXUD_FULL_PIDTABLE=1"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-return-type"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "DEBUG_PRINT_ENABLE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_SUPPORTS_TILE_0=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_SUPPORTS_TILE_1=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_SUPPORTS_TILE_2=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_SUPPORTS_TILE_3=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_USES_TILE_0=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_USES_TILE_1=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "XUD_CORE_CLOCK=600"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/user/xmos-template/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/clock_control/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/utils/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/utils/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/experimental/dsp_filters/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/xs3_math/lib_xs3_math/lib_xcore_math/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/xs3_math/lib_xs3_math/lib_xcore_math/src/etc/xmath_fft_lut"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/l2_cache/lib_l2_cache/lib_l2_cache/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/legacy_compat/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/otpinfo/lib_otpinfo/lib_otpinfo/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/random/lib_random/lib_random/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/trycatch/lib_trycatch/lib_trycatch/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/trycatch/lib_trycatch/lib_trycatch/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/i2c/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/qspi_io/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/spi/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/uart/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/uart/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/user"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/core"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/i2s/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/mic_array/lib_mic_array/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/multitile_support/api"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				6,
+				9
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-march=xs3a"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Os"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-report"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fxscope"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mcmodel=large"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-xcore-fptrgroup"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/home/user/xmos-template/src/config.xscope"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/home/user/xmos-template/XU316-1024-QF60A-C24.xn"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-DDEBUG_PRINT_ENABLE=1"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-O3 -DREF_CLK_FREQ=100 -fasm-linenum -fcomment-asm -DXUD_FULL_PIDTABLE=1"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "DEBUG_PRINT_ENABLE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_SUPPORTS_TILE_0=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_SUPPORTS_TILE_1=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_SUPPORTS_TILE_2=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_SUPPORTS_TILE_3=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_USES_TILE_0=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_USES_TILE_1=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "XUD_CORE_CLOCK=600"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/user/xmos-template/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/clock_control/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/utils/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/utils/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/experimental/dsp_filters/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/xs3_math/lib_xs3_math/lib_xcore_math/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/xs3_math/lib_xs3_math/lib_xcore_math/src/etc/xmath_fft_lut"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/l2_cache/lib_l2_cache/lib_l2_cache/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/legacy_compat/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/otpinfo/lib_otpinfo/lib_otpinfo/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/random/lib_random/lib_random/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/trycatch/lib_trycatch/lib_trycatch/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/trycatch/lib_trycatch/lib_trycatch/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/i2c/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/qspi_io/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/spi/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/uart/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/uart/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/user"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/core"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/i2s/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/mic_array/lib_mic_array/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/multitile_support/api"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				19,
+				20,
+				22,
+				23,
+				24,
+				25
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-march=xs3a"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Os"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-report"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fxscope"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mcmodel=large"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wno-xcore-fptrgroup"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/home/user/xmos-template/src/config.xscope"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/home/user/xmos-template/XU316-1024-QF60A-C24.xn"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-DDEBUG_PRINT_ENABLE=1"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-O3 -DREF_CLK_FREQ=100 -fasm-linenum -fcomment-asm -DXUD_FULL_PIDTABLE=1"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "\"-fschedule -g0\""
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "DEBUG_PRINT_ENABLE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_SUPPORTS_TILE_0=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_SUPPORTS_TILE_1=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_SUPPORTS_TILE_2=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_SUPPORTS_TILE_3=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_USES_TILE_0=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "PLATFORM_USES_TILE_1=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "XUD_CORE_CLOCK=600"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/user/xmos-template/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/clock_control/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/utils/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/utils/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/experimental/dsp_filters/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/xs3_math/lib_xs3_math/lib_xcore_math/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/xs3_math/lib_xs3_math/lib_xcore_math/src/etc/xmath_fft_lut"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/l2_cache/lib_l2_cache/lib_l2_cache/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/legacy_compat/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/otpinfo/lib_otpinfo/lib_otpinfo/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/random/lib_random/lib_random/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/trycatch/lib_trycatch/lib_trycatch/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/trycatch/lib_trycatch/lib_trycatch/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/i2c/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/qspi_io/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/spi/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/uart/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/uart/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/user"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/core"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/i2s/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/mic_array/lib_mic_array/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/multitile_support/api"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				21
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "framework_core_clock_control::@d70371bb577553270105"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "framework_core_dsp_filters::@0e9ed345ae4894aa3a46"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "framework_core_l2_cache::@f859b9e3034de0d6ecd6"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "framework_core_otpinfo::@fc25b90383dbd7fd5629"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "framework_core_random::@c64b8233711324d5d72c"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "framework_core_trycatch::@4f7491fa7ec29b414253"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "lib_xcore_math::@f87c288d49ae43fd15e6"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "framework_io_i2c::@722fef7eeb8d1b6d650a"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "framework_io_i2s::@44d7a5542d4fa23d0720"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "lib_mic_array::@aa3809b03f4f12aa82ac"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "framework_io_qspi_io::@48114ef015800c2f4135"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "framework_io_spi::@aef1a38c7e265808cc4b"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "framework_io_uart::@a24de6986752bcb373d5"
+		}
+	],
+	"id" : "xmos_project::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-march=xs3a -std=c++11 -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-report",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/user/xmos-template/XU316-1024-QF60A-C24.xn",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/home/user/xmos-template/src/config.xscope",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "xcore_sdk/modules/core/modules/clock_control/libframework_core_clock_control.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "xcore_sdk/modules/core/modules/experimental/dsp_filters/libframework_core_dsp_filters.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "xcore_sdk/modules/core/modules/l2_cache/libframework_core_l2_cache.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "xcore_sdk/modules/core/modules/otpinfo/libframework_core_otpinfo.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "xcore_sdk/modules/core/modules/random/libframework_core_random.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "xcore_sdk/modules/core/modules/trycatch/libframework_core_trycatch.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "xcore_sdk/modules/io/modules/i2c/libframework_io_i2c.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "xcore_sdk/modules/io/modules/qspi_io/libframework_io_qspi_io.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "xcore_sdk/modules/io/modules/spi/libframework_io_spi.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "xcore_sdk/modules/io/modules/uart/libframework_io_uart.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "xcore_sdk/modules/io/modules/i2s/libframework_io_i2s.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "xcore_sdk/modules/io/modules/mic_array/lib_mic_array/liblib_mic_array.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "xcore_sdk/modules/core/modules/xs3_math/lib_xs3_math/lib_xcore_math/liblib_xcore_math.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "xmos_project",
+	"nameOnDisk" : "xmos_project.xe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				26,
+				27,
+				28
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				29
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "xcore_sdk/modules/core/modules/utils/src/xcore_interrupt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "xcore_sdk/modules/core/modules/utils/src/xcore_printf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/core/XUD_Default.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 2,
+			"path" : "xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/core/XUD_SetCrcTableAddr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 3,
+			"path" : "xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/core/XUD_DeviceAttach.xc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 4,
+			"path" : "xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/core/XUD_HAL.xc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 2,
+			"path" : "xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/core/XUD_IOLoopCall.xc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 2,
+			"path" : "xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/core/XUD_Main.xc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 4,
+			"path" : "xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/core/XUD_Signalling.xc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 2,
+			"path" : "xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/core/XUD_Support.xc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 2,
+			"path" : "xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/core/XUD_TestMode.xc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/core/XUD_USBTile_Support.xc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/core/XUD_User.xc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/core/XUD_UserResume.xc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/user/client/XUD_EpFunctions.xc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 2,
+			"path" : "xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/user/client/XUD_SetDevAddr.xc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/user/control/xud_device.xc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/user/control/xud_std_requests.xc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 5,
+			"path" : "xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/core/XUD_CRC5_Table.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 5,
+			"path" : "xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/core/XUD_CRC5_Table_Addr.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 6,
+			"path" : "xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/core/XUD_IoLoop.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 5,
+			"path" : "xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/core/XUD_SetupChanOverride.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 5,
+			"path" : "xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/core/XUD_TestMode.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 5,
+			"path" : "xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/core/XUD_USBTile_Support.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 5,
+			"path" : "xcore_sdk/modules/io/modules/xud/lib_xud/lib_xud/src/user/client/XUD_EpFuncs.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "xcore_sdk/modules/core/modules/multitile_support/src/soc_intertile_channel.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "xcore_sdk/modules/core/modules/multitile_support/src/xscope_host_support.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "xcore_sdk/modules/core/modules/multitile_support/src/tile_map_defaults.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "xcore_sdk/modules/core/modules/multitile_support/src/tile_map.xc",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,2 @@
+xmosar qc libframework_io_qspi_io.a CMakeFiles/framework_io_qspi_io.dir/src/qspi_flash.c.obj CMakeFiles/framework_io_qspi_io.dir/src/qspi_io.c.obj CMakeFiles/framework_io_qspi_io.dir/src/sfdp.c.obj CMakeFiles/framework_io_qspi_io.dir/__/__/__/core/modules/utils/src/xcore_interrupt.c.obj CMakeFiles/framework_io_qspi_io.dir/__/__/__/core/modules/utils/src/xcore_printf.c.obj
+echo libframework_io_qspi_io.a

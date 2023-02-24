@@ -1,0 +1,2 @@
+xmosar qc libframework_io_i2s.a CMakeFiles/framework_io_i2s.dir/src/i2s_master.c.obj CMakeFiles/framework_io_i2s.dir/src/i2s_slave.c.obj
+echo libframework_io_i2s.a

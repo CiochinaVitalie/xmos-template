@@ -3,6 +3,16 @@
         "mic_array_vanilla.h": "c",
         "stdio.h": "c",
         "audio_pipeline.h": "c",
-        "platform_init.h": "c"
+        "platform_init.h": "c",
+        "app_demos.h": "c",
+        "parallel.h": "c",
+        "thread.h": "c",
+        "xcore_utils.h": "c",
+        "xcore_printf.h": "c",
+        "tile_support.h": "c",
+        "gpio.h": "c",
+        "xs1.h": "c",
+        "platform.h": "c",
+        "port.h": "c"
     }
 }

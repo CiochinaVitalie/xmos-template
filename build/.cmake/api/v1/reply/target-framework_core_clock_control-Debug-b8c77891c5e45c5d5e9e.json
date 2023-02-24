@@ -1,0 +1,148 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "xcore_sdk/modules/core/modules/clock_control/libframework_core_clock_control.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_compile_options",
+			"target_link_libraries",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"xcore_sdk/modules/core/modules/clock_control/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-march=xs3a -g"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Os"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-DDEBUG_PRINT_ENABLE=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/clock_control/api"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/clock_control/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/utils/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/utils/src"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"id" : "framework_core_clock_control::@d70371bb577553270105",
+	"name" : "framework_core_clock_control",
+	"nameOnDisk" : "libframework_core_clock_control.a",
+	"paths" : 
+	{
+		"build" : "xcore_sdk/modules/core/modules/clock_control",
+		"source" : "xcore_sdk/modules/core/modules/clock_control"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "xcore_sdk/modules/core/modules/clock_control/src/xcore_clock_control.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "xcore_sdk/modules/core/modules/utils/src/xcore_interrupt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "xcore_sdk/modules/core/modules/utils/src/xcore_printf.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

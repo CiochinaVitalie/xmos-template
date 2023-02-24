@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+feacb44a1ab8f71081e81226be5f9ea1 CMakeFiles/debug_xmos_project
+8c3d4e5dac45c5b8a975158b8559c5d3 CMakeFiles/flash_app_xmos_project
+2f3d8845dc3f0eb14fcca1be70b9071f CMakeFiles/install_xmos_project
+e11f72de4024465380f545b0c796e842 CMakeFiles/run_xmos_project

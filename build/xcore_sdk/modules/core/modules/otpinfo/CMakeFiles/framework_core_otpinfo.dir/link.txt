@@ -1,0 +1,2 @@
+xmosar qc libframework_core_otpinfo.a CMakeFiles/framework_core_otpinfo.dir/lib_otpinfo/lib_otpinfo/src/otp_board_info.xc.obj
+echo libframework_core_otpinfo.a

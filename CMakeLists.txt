@@ -9,14 +9,19 @@ add_subdirectory(xcore_sdk)
 #**********************
 # Gather Sources
 #**********************
-file(GLOB_RECURSE APP_SOURCES ${CMAKE_CURRENT_LIST_DIR}/src/*.c )
+file(GLOB_RECURSE APP_SOURCES 
+    ${CMAKE_CURRENT_LIST_DIR}/src/*.c
+)
 
 set(APP_INCLUDES
     ${CMAKE_CURRENT_LIST_DIR}/src
-    ${CMAKE_CURRENT_LIST_DIR}/src/audio_pipeline
-    ${CMAKE_CURRENT_LIST_DIR}/src/platform
-    ${CMAKE_CURRENT_LIST_DIR}/src/misc
-    ${CMAKE_CURRENT_LIST_DIR}/src/demos
+    # ${CMAKE_CURRENT_LIST_DIR}/src/audio_pipeline
+    # ${CMAKE_CURRENT_LIST_DIR}/src/platform
+    # ${CMAKE_CURRENT_LIST_DIR}/src/misc
+    # ${CMAKE_CURRENT_LIST_DIR}/src/demos
+    # ${CMAKE_CURRENT_LIST_DIR}/src/speex
+    # ${CMAKE_CURRENT_LIST_DIR}/src/speex/include/speex
+    # ${CMAKE_CURRENT_LIST_DIR}/src/speex/libspeex
 )
 
 #**********************
@@ -30,7 +35,8 @@ set(APP_COMPILER_FLAGS
     -mcmodel=large
     -Wno-xcore-fptrgroup
     ${CMAKE_CURRENT_LIST_DIR}/src/config.xscope
-    ${CMAKE_CURRENT_LIST_DIR}/XCORE-AI-EXPLORER.xn
+    ${CMAKE_CURRENT_LIST_DIR}/XU316-1024-QF60A-C24.xn
+    # ${CMAKE_CURRENT_LIST_DIR}/XCORE-AI-EXPLORER.xn
 )
 set(APP_COMPILE_DEFINITIONS
     DEBUG_PRINT_ENABLE=1
@@ -41,17 +47,18 @@ set(APP_COMPILE_DEFINITIONS
     PLATFORM_USES_TILE_0=1
     PLATFORM_USES_TILE_1=1
 
-    MIC_ARRAY_CONFIG_CLOCK_BLOCK_A=XS1_CLKBLK_1
-    MIC_ARRAY_CONFIG_CLOCK_BLOCK_B=XS1_CLKBLK_2
-    MIC_ARRAY_CONFIG_PORT_MCLK=PORT_MCLK_IN
-    MIC_ARRAY_CONFIG_PORT_PDM_CLK=PORT_PDM_CLK
-    MIC_ARRAY_CONFIG_PORT_PDM_DATA=PORT_PDM_DATA
+    # MIC_ARRAY_CONFIG_CLOCK_BLOCK_A=XS1_CLKBLK_1
+    # MIC_ARRAY_CONFIG_CLOCK_BLOCK_B=XS1_CLKBLK_2
+    # MIC_ARRAY_CONFIG_PORT_MCLK=PORT_MCLK_IN
+    # MIC_ARRAY_CONFIG_PORT_PDM_CLK=PORT_PDM_CLK
+    # MIC_ARRAY_CONFIG_PORT_PDM_DATA=PORT_PDM_DATA
     XUD_CORE_CLOCK=600
 )
 
 set(APP_LINK_OPTIONS
     -report
-    ${CMAKE_CURRENT_LIST_DIR}/XCORE-AI-EXPLORER.xn
+    # ${CMAKE_CURRENT_LIST_DIR}/XCORE-AI-EXPLORER.xn
+    ${CMAKE_CURRENT_LIST_DIR}/XU316-1024-QF60A-C24.xn
     ${CMAKE_CURRENT_LIST_DIR}/src/config.xscope
 )
 #**********************
@@ -66,19 +73,19 @@ target_link_libraries(xmos_project PUBLIC
 core::general 
 io::all 
 core::multitile_support
-fwk_voice::aec
-fwk_voice::adec
-fwk_voice::ns
-fwk_voice::agc
-fwk_voice::ic
-lib_xcore_math
+# fwk_voice::aec
+# fwk_voice::adec
+# fwk_voice::ns
+# fwk_voice::agc
+# fwk_voice::ic
+# lib_xcore_math
 )
 target_link_options(xmos_project PRIVATE ${APP_LINK_OPTIONS})
 
 
 # MCLK_FREQ,  PDM_FREQ, MIC_COUNT,  SAMPLES_PER_FRAME
-mic_array_vanilla_add( xmos_project
-    24576000  3072000   2           256 )
+# mic_array_vanilla_add( xmos_project
+#     24576000  3072000   2           256 )
 
 #**********************
 # Create run and debug targets

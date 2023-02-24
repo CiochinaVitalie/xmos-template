@@ -1,0 +1,164 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "xcore_sdk/modules/io/modules/qspi_io/libframework_io_qspi_io.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_compile_options",
+			"target_link_libraries",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"xcore_sdk/modules/io/modules/qspi_io/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-march=xs3a -g"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-O2"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-DDEBUG_PRINT_ENABLE=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/qspi_io/api"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/io/modules/qspi_io/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/utils/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/utils/src"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"id" : "framework_io_qspi_io::@48114ef015800c2f4135",
+	"name" : "framework_io_qspi_io",
+	"nameOnDisk" : "libframework_io_qspi_io.a",
+	"paths" : 
+	{
+		"build" : "xcore_sdk/modules/io/modules/qspi_io",
+		"source" : "xcore_sdk/modules/io/modules/qspi_io"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "xcore_sdk/modules/io/modules/qspi_io/src/qspi_flash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "xcore_sdk/modules/io/modules/qspi_io/src/qspi_io.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "xcore_sdk/modules/io/modules/qspi_io/src/sfdp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "xcore_sdk/modules/core/modules/utils/src/xcore_interrupt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "xcore_sdk/modules/core/modules/utils/src/xcore_printf.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

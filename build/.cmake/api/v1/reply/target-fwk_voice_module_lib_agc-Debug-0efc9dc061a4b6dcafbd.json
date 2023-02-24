@@ -1,0 +1,135 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "xcore_sdk/modules/voice/modules/lib_agc/libfwk_voice_module_lib_agc.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_compile_options",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"xcore_sdk/modules/voice/modules/lib_agc/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-march=xs3a -g"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Os"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/voice/modules/lib_agc/api"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/xs3_math/lib_xs3_math/lib_xcore_math/api"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/xs3_math/lib_xs3_math/lib_xcore_math/src/etc/xmath_fft_lut"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "lib_xcore_math::@f87c288d49ae43fd15e6"
+		}
+	],
+	"id" : "fwk_voice_module_lib_agc::@9f0a3d2cdc944baf350a",
+	"name" : "fwk_voice_module_lib_agc",
+	"nameOnDisk" : "libfwk_voice_module_lib_agc.a",
+	"paths" : 
+	{
+		"build" : "xcore_sdk/modules/voice/modules/lib_agc",
+		"source" : "xcore_sdk/modules/voice/modules/lib_agc"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "xcore_sdk/modules/voice/modules/lib_agc/src/agc_impl.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

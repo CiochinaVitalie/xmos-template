@@ -1,0 +1,3 @@
+/home/user/xmos-template/build/_deps/lib_tflite_micro-subbuild/CMakeFiles/lib_tflite_micro-populate.dir
+/home/user/xmos-template/build/_deps/lib_tflite_micro-subbuild/CMakeFiles/edit_cache.dir
+/home/user/xmos-template/build/_deps/lib_tflite_micro-subbuild/CMakeFiles/rebuild_cache.dir

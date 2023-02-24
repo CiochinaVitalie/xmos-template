@@ -1,0 +1,429 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "xcore_sdk/modules/core/modules/inferencing/libinferencing_lib_nn.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_compile_options",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"xcore_sdk/modules/core/modules/inferencing/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-march=xs3a -g"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Os"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wno-xcore-fptrgroup"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/.."
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				18
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-march=xs3a -std=c++11 -g"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Os"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wno-xcore-fptrgroup"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-std=c++11"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/.."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-march=xs3a"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Os"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wno-xcore-fptrgroup"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/api"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/.."
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30
+			]
+		}
+	],
+	"id" : "inferencing_lib_nn::@0a8d426102e9f81d0354",
+	"name" : "inferencing_lib_nn",
+	"nameOnDisk" : "libinferencing_lib_nn.a",
+	"paths" : 
+	{
+		"build" : "xcore_sdk/modules/core/modules/inferencing",
+		"source" : "xcore_sdk/modules/core/modules/inferencing"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/c/bsign.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/c/nn_operator.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/c/nn_operator_conv.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/c/pad.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/c/vpu_memcpy.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/c/vpu_memset.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/c/vpu_sim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/cpp/AggregateFn.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/cpp/AggregateFn_DW.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/cpp/Filter2D.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/cpp/MemCpyFn.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/cpp/OutputTransformFn.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/cpp/filt2d/conv2d_utils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/cpp/filt2d/util.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/cpp/filt2d/geom/Filter2dGeometry.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/cpp/filt2d/geom/ImageGeometry.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/cpp/filt2d/geom/WindowGeometry.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/cpp/filt2d/geom/WindowLocation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/asm/asm_constants.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 2,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/asm/aggregate_fn_direct_binary.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 2,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/asm/aggregate_fn_direct_int8.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 2,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/asm/aggregate_fn_direct_int8_dw.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 2,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/asm/aggregate_fn_generic_binary.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 2,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/asm/aggregate_fn_generic_int8.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 2,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/asm/bsign_8.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 2,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/asm/memcpy_fn_valid.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 2,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/asm/output_transform_fn_binary.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 2,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/asm/output_transform_fn_int8.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 2,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/asm/output_transform_fn_int8_clamped.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 2,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/asm/vpu_memcpy.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 2,
+			"path" : "xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/src/asm/vpu_memset32.S",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

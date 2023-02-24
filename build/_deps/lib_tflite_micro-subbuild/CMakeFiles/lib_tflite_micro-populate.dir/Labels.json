@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/user/xmos-template/build/_deps/lib_tflite_micro-subbuild/CMakeFiles/lib_tflite_micro-populate"
+		},
+		{
+			"file" : "/home/user/xmos-template/build/_deps/lib_tflite_micro-subbuild/CMakeFiles/lib_tflite_micro-populate.rule"
+		},
+		{
+			"file" : "/home/user/xmos-template/build/_deps/lib_tflite_micro-subbuild/CMakeFiles/lib_tflite_micro-populate-complete.rule"
+		},
+		{
+			"file" : "/home/user/xmos-template/build/_deps/lib_tflite_micro-subbuild/lib_tflite_micro-populate-prefix/src/lib_tflite_micro-populate-stamp/lib_tflite_micro-populate-build.rule"
+		},
+		{
+			"file" : "/home/user/xmos-template/build/_deps/lib_tflite_micro-subbuild/lib_tflite_micro-populate-prefix/src/lib_tflite_micro-populate-stamp/lib_tflite_micro-populate-configure.rule"
+		},
+		{
+			"file" : "/home/user/xmos-template/build/_deps/lib_tflite_micro-subbuild/lib_tflite_micro-populate-prefix/src/lib_tflite_micro-populate-stamp/lib_tflite_micro-populate-download.rule"
+		},
+		{
+			"file" : "/home/user/xmos-template/build/_deps/lib_tflite_micro-subbuild/lib_tflite_micro-populate-prefix/src/lib_tflite_micro-populate-stamp/lib_tflite_micro-populate-install.rule"
+		},
+		{
+			"file" : "/home/user/xmos-template/build/_deps/lib_tflite_micro-subbuild/lib_tflite_micro-populate-prefix/src/lib_tflite_micro-populate-stamp/lib_tflite_micro-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/user/xmos-template/build/_deps/lib_tflite_micro-subbuild/lib_tflite_micro-populate-prefix/src/lib_tflite_micro-populate-stamp/lib_tflite_micro-populate-patch.rule"
+		},
+		{
+			"file" : "/home/user/xmos-template/build/_deps/lib_tflite_micro-subbuild/lib_tflite_micro-populate-prefix/src/lib_tflite_micro-populate-stamp/lib_tflite_micro-populate-test.rule"
+		},
+		{
+			"file" : "/home/user/xmos-template/build/_deps/lib_tflite_micro-subbuild/lib_tflite_micro-populate-prefix/src/lib_tflite_micro-populate-stamp/lib_tflite_micro-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"lib_tflite_micro-populate"
+		],
+		"name" : "lib_tflite_micro-populate"
+	}
+}

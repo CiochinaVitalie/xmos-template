@@ -1,0 +1,120 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "xcore_sdk/modules/core/modules/experimental/dsp_filters/libframework_core_dsp_filters.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"xcore_sdk/modules/core/modules/experimental/dsp_filters/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-march=xs3a -g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/experimental/dsp_filters/api"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/xs3_math/lib_xs3_math/lib_xcore_math/api"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/xs3_math/lib_xs3_math/lib_xcore_math/src/etc/xmath_fft_lut"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "lib_xcore_math::@f87c288d49ae43fd15e6"
+		}
+	],
+	"id" : "framework_core_dsp_filters::@0e9ed345ae4894aa3a46",
+	"name" : "framework_core_dsp_filters",
+	"nameOnDisk" : "libframework_core_dsp_filters.a",
+	"paths" : 
+	{
+		"build" : "xcore_sdk/modules/core/modules/experimental/dsp_filters",
+		"source" : "xcore_sdk/modules/core/modules/experimental/dsp_filters"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "xcore_sdk/modules/core/modules/experimental/dsp_filters/src/dsp_filters.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

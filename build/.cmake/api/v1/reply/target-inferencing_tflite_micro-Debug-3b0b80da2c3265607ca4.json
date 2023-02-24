@@ -1,0 +1,1177 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "xcore_sdk/modules/core/modules/inferencing/libinferencing_tflite_micro.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_compile_options",
+			"target_compile_definitions",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"xcore_sdk/modules/core/modules/inferencing/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 90,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 141,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 97,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 110,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 126,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 118,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-march=xs3a"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Os"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-xcore-fptrgroup"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "NO_INTERPRETER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "TF_LITE_STATIC_MEMORY"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "TF_LITE_STRIP_ERROR_STRINGS"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "XTFLM_DISABLED"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/home/user/xmos-template/build/dependencies/lib_tflite_micro/lib_tflite_micro/../.."
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/user/xmos-template/build/dependencies/lib_tflite_micro/lib_tflite_micro/api"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/user/xmos-template/build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/user/xmos-template/build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/flatbuffers/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/inferencing/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/user/xmos-template/build/dependencies/lib_tflite_micro/lib_tflite_micro/.."
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/user/xmos-template/build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/gemmlowp"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/user/xmos-template/build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/ruy"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/user/xmos-template/build/dependencies/lib_tflite_micro/lib_tflite_micro/src/tflite-xcore-kernels"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/api"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/.."
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-march=xs3a -std=c++11 -g"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Os"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-xcore-fptrgroup"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-std=c++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "NO_INTERPRETER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "TF_LITE_STATIC_MEMORY"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "TF_LITE_STRIP_ERROR_STRINGS"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "XTFLM_DISABLED"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/home/user/xmos-template/build/dependencies/lib_tflite_micro/lib_tflite_micro/../.."
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/user/xmos-template/build/dependencies/lib_tflite_micro/lib_tflite_micro/api"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/user/xmos-template/build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/user/xmos-template/build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/flatbuffers/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/inferencing/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/user/xmos-template/build/dependencies/lib_tflite_micro/lib_tflite_micro/.."
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/user/xmos-template/build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/gemmlowp"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/user/xmos-template/build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/ruy"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/user/xmos-template/build/dependencies/lib_tflite_micro/lib_tflite_micro/src/tflite-xcore-kernels"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/api"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/inferencing/lib_nn/lib_nn/.."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "inferencing_lib_nn::@0a8d426102e9f81d0354"
+		}
+	],
+	"id" : "inferencing_tflite_micro::@0a8d426102e9f81d0354",
+	"name" : "inferencing_tflite_micro",
+	"nameOnDisk" : "libinferencing_tflite_micro.a",
+	"paths" : 
+	{
+		"build" : "xcore_sdk/modules/core/modules/inferencing",
+		"source" : "xcore_sdk/modules/core/modules/inferencing"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 0,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/src/thread_call.S",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/c/common.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/core/api/error_reporter.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/core/api/tensor_utils.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/core/api/flatbuffer_conversions.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/core/api/op_resolver.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/kernels/kernel_util.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/schema/schema_utils.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/flatbuffer_utils.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/micro_error_reporter.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/micro_resource_variable.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/micro_string.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/micro_utils.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/memory_helpers.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/activations.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/activations_common.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/add.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/add_common.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/add_n.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/slice.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/arg_min_max.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/batch_to_space_nd.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/broadcast_args.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/broadcast_to.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/cast.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/ceil.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/circular_buffer.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/circular_buffer_common.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/circular_buffer_flexbuffers_generated_data.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/comparisons.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/concatenation.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/conv.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/conv_common.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/cumsum.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/depth_to_space.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/depthwise_conv.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/depthwise_conv_common.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/dequantize.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/dequantize_common.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/detection_postprocess_flexbuffers_generated_data.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/div.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/elementwise.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/elu.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/ethosu.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/exp.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/expand_dims.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/fill.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/floor.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/floor_div.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/floor_mod.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/fully_connected.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/fully_connected_common.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/gather.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/gather_nd.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/hard_swish.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/hard_swish_common.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/kernel_util.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/l2_pool_2d.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/l2norm.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/leaky_relu.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/leaky_relu_common.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/log_softmax.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/logical.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/logical_common.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/logistic.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/logistic_common.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/maximum_minimum.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/mirror_pad.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/mul.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/mul_common.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/neg.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/pack.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/pad.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/pooling.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/pooling_common.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/prelu.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/prelu_common.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/quantize.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/quantize_common.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/reduce.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/reduce_common.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/reshape.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/resize_bilinear.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/round.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/shape.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/softmax.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/softmax_common.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/space_to_batch_nd.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/space_to_depth.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/split.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/split_v.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/squeeze.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/strided_slice.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/sub.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/sub_common.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/svdf.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/svdf_common.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/tanh.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/transpose.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/transpose_conv.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/unpack.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/submodules/tflite-micro/tensorflow/lite/micro/kernels/zeros_like.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/src/tflite-xcore-kernels/xcore_common.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/src/tflite-xcore-kernels/xcore_custom_options.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/src/tflite-xcore-kernels/xcore_bsign.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/src/tflite-xcore-kernels/xcore_conv2d_v2.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/src/tflite-xcore-kernels/xcore_detection_post.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/src/tflite-xcore-kernels/xcore_load_from_flash.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/src/tflite-xcore-kernels/xcore_lookup.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 1,
+			"path" : "build/dependencies/lib_tflite_micro/lib_tflite_micro/src/tflite-xcore-kernels/xcore_strided_slice.cc",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

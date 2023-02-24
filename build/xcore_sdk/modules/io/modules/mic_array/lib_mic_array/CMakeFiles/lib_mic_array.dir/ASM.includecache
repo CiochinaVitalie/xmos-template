@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/xmos-template/xcore_sdk/modules/io/modules/mic_array/lib_mic_array/src/deinterleave2.S
+
+/home/user/xmos-template/xcore_sdk/modules/io/modules/mic_array/lib_mic_array/src/deinterleave4.S
+
+/home/user/xmos-template/xcore_sdk/modules/io/modules/mic_array/lib_mic_array/src/deinterleave8.S
+
+/home/user/xmos-template/xcore_sdk/modules/io/modules/mic_array/lib_mic_array/src/fir_1x16_bit.S
+
+/home/user/xmos-template/xcore_sdk/modules/io/modules/mic_array/lib_mic_array/src/pdm_rx_isr.S
+

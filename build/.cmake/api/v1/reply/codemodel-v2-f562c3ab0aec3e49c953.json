@@ -1,0 +1,1435 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						22,
+						25,
+						27
+					]
+				},
+				{
+					"build" : "xcore_sdk",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-xcore_sdk-Debug-e59ae75c9c116ee703c2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "xcore_sdk"
+				},
+				{
+					"build" : "xcore_sdk/modules",
+					"childIndexes" : 
+					[
+						3,
+						18,
+						28,
+						64,
+						72,
+						73
+					],
+					"jsonFile" : "directory-xcore_sdk.modules-Debug-be3d6f083dc328f4b76f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "xcore_sdk/modules"
+				},
+				{
+					"build" : "xcore_sdk/modules/core",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-xcore_sdk.modules.core-Debug-8c7f9629d7fc81f77d60.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "xcore_sdk/modules/core"
+				},
+				{
+					"build" : "xcore_sdk/modules/core/modules",
+					"childIndexes" : 
+					[
+						5,
+						6,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					],
+					"jsonFile" : "directory-xcore_sdk.modules.core.modules-Debug-96017e4a47a0ca7b1481.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "xcore_sdk/modules/core/modules"
+				},
+				{
+					"build" : "xcore_sdk/modules/core/modules/clock_control",
+					"jsonFile" : "directory-xcore_sdk.modules.core.modules.clock_control-Debug-883982e720eb7622bfc2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "xcore_sdk/modules/core/modules/clock_control",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "xcore_sdk/modules/core/modules/experimental",
+					"childIndexes" : 
+					[
+						7
+					],
+					"jsonFile" : "directory-xcore_sdk.modules.core.modules.experimental-Debug-974c3d6a2a3243fccf08.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "xcore_sdk/modules/core/modules/experimental"
+				},
+				{
+					"build" : "xcore_sdk/modules/core/modules/experimental/dsp_filters",
+					"jsonFile" : "directory-xcore_sdk.modules.core.modules.experimental.dsp_filters-Debug-86969ee16872ee22b2be.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 2,
+					"source" : "xcore_sdk/modules/core/modules/experimental/dsp_filters",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "xcore_sdk/modules/core/modules/inferencing",
+					"jsonFile" : "directory-xcore_sdk.modules.core.modules.inferencing-Debug-f707385f2dcbaa10c2e4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "xcore_sdk/modules/core/modules/inferencing",
+					"targetIndexes" : 
+					[
+						20,
+						21
+					]
+				},
+				{
+					"build" : "xcore_sdk/modules/core/modules/l2_cache",
+					"jsonFile" : "directory-xcore_sdk.modules.core.modules.l2_cache-Debug-361c21e7dfa658119e80.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "xcore_sdk/modules/core/modules/l2_cache",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "xcore_sdk/modules/core/modules/legacy_compat",
+					"jsonFile" : "directory-xcore_sdk.modules.core.modules.legacy_compat-Debug-d39eafcd21becfed1b69.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "xcore_sdk/modules/core/modules/legacy_compat"
+				},
+				{
+					"build" : "xcore_sdk/modules/core/modules/multitile_support",
+					"jsonFile" : "directory-xcore_sdk.modules.core.modules.multitile_support-Debug-a51d2799c70482cd51b6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "xcore_sdk/modules/core/modules/multitile_support"
+				},
+				{
+					"build" : "xcore_sdk/modules/core/modules/otpinfo",
+					"jsonFile" : "directory-xcore_sdk.modules.core.modules.otpinfo-Debug-fa65dcb86410795bbb75.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "xcore_sdk/modules/core/modules/otpinfo",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "xcore_sdk/modules/core/modules/random",
+					"jsonFile" : "directory-xcore_sdk.modules.core.modules.random-Debug-76399a0ecb3070b94dc1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "xcore_sdk/modules/core/modules/random",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "xcore_sdk/modules/core/modules/trycatch",
+					"jsonFile" : "directory-xcore_sdk.modules.core.modules.trycatch-Debug-e04e1662d73e89a3c7bf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "xcore_sdk/modules/core/modules/trycatch",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "xcore_sdk/modules/core/modules/utils",
+					"jsonFile" : "directory-xcore_sdk.modules.core.modules.utils-Debug-bb68f3ac1b8e221b937e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "xcore_sdk/modules/core/modules/utils"
+				},
+				{
+					"build" : "xcore_sdk/modules/core/modules/xs3_math",
+					"childIndexes" : 
+					[
+						17
+					],
+					"jsonFile" : "directory-xcore_sdk.modules.core.modules.xs3_math-Debug-b4ba42825eb80d22cde6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "xcore_sdk/modules/core/modules/xs3_math"
+				},
+				{
+					"build" : "xcore_sdk/modules/core/modules/xs3_math/lib_xs3_math/lib_xcore_math",
+					"jsonFile" : "directory-xcore_sdk.modules.core.modules.xs3_math.lib_xs3_math.lib_xcore_math-Debug-5c8c720799e5b8c662d8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 2,
+					"source" : "xcore_sdk/modules/core/modules/xs3_math/lib_xs3_math/lib_xcore_math",
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"build" : "xcore_sdk/modules/io",
+					"childIndexes" : 
+					[
+						19
+					],
+					"jsonFile" : "directory-xcore_sdk.modules.io-Debug-59cc1f69a6bfb5301390.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "xcore_sdk/modules/io"
+				},
+				{
+					"build" : "xcore_sdk/modules/io/modules",
+					"childIndexes" : 
+					[
+						20,
+						21,
+						22,
+						24,
+						25,
+						26,
+						27
+					],
+					"jsonFile" : "directory-xcore_sdk.modules.io.modules-Debug-c0434dce07fa4c4b88c4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 18,
+					"projectIndex" : 3,
+					"source" : "xcore_sdk/modules/io/modules"
+				},
+				{
+					"build" : "xcore_sdk/modules/io/modules/i2c",
+					"jsonFile" : "directory-xcore_sdk.modules.io.modules.i2c-Debug-d27acb28a84107e1085f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 3,
+					"source" : "xcore_sdk/modules/io/modules/i2c",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "xcore_sdk/modules/io/modules/i2s",
+					"jsonFile" : "directory-xcore_sdk.modules.io.modules.i2s-Debug-8def2fe9b6da87be4974.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 3,
+					"source" : "xcore_sdk/modules/io/modules/i2s",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "xcore_sdk/modules/io/modules/mic_array",
+					"childIndexes" : 
+					[
+						23
+					],
+					"jsonFile" : "directory-xcore_sdk.modules.io.modules.mic_array-Debug-f77374fef1c4e9aefacb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 4,
+					"source" : "xcore_sdk/modules/io/modules/mic_array"
+				},
+				{
+					"build" : "xcore_sdk/modules/io/modules/mic_array/lib_mic_array",
+					"jsonFile" : "directory-xcore_sdk.modules.io.modules.mic_array.lib_mic_array-Debug-72de17839ea4d3e03741.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 22,
+					"projectIndex" : 4,
+					"source" : "xcore_sdk/modules/io/modules/mic_array/lib_mic_array",
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"build" : "xcore_sdk/modules/io/modules/qspi_io",
+					"jsonFile" : "directory-xcore_sdk.modules.io.modules.qspi_io-Debug-a4831c99af50bd3777d5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 3,
+					"source" : "xcore_sdk/modules/io/modules/qspi_io",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "xcore_sdk/modules/io/modules/spi",
+					"jsonFile" : "directory-xcore_sdk.modules.io.modules.spi-Debug-cc0879ff5ef73788203b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 3,
+					"source" : "xcore_sdk/modules/io/modules/spi",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "xcore_sdk/modules/io/modules/xud",
+					"jsonFile" : "directory-xcore_sdk.modules.io.modules.xud-Debug-331b61eb56288ff6622d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 3,
+					"source" : "xcore_sdk/modules/io/modules/xud"
+				},
+				{
+					"build" : "xcore_sdk/modules/io/modules/uart",
+					"jsonFile" : "directory-xcore_sdk.modules.io.modules.uart-Debug-a20a44efd736358f0529.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 19,
+					"projectIndex" : 3,
+					"source" : "xcore_sdk/modules/io/modules/uart",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos",
+					"childIndexes" : 
+					[
+						29
+					],
+					"jsonFile" : "directory-xcore_sdk.modules.rtos-Debug-8372ceb02d2d953d21a7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules",
+					"childIndexes" : 
+					[
+						30,
+						31,
+						48,
+						49,
+						50,
+						51
+					],
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules-Debug-c9d9600122d4576259b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 28,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/bsp_config",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.bsp_config-Debug-3133d71377c23399c258.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/bsp_config"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/drivers",
+					"childIndexes" : 
+					[
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47
+					],
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.drivers-Debug-2959ed0cfe7def2ca250.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/drivers"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/drivers/clock_control",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.drivers.clock_control-Debug-3a8718190e508e970f2f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 31,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/drivers/clock_control"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/drivers/dfu",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.drivers.dfu-Debug-267bc9ef7e3daf9398c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 31,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/drivers/dfu"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/drivers/gpio",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.drivers.gpio-Debug-b1b7380cb0f58944c970.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 31,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/drivers/gpio"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/drivers/i2c",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.drivers.i2c-Debug-fe2330d61022b73f389d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 31,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/drivers/i2c"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/drivers/i2s",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.drivers.i2s-Debug-1697ab493da3c719ad91.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 31,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/drivers/i2s"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/drivers/intertile",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.drivers.intertile-Debug-08deba00d08da0569291.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 31,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/drivers/intertile"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/drivers/l2_cache",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.drivers.l2_cache-Debug-6aa20fb1499786751b38.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 31,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/drivers/l2_cache"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/drivers/mic_array",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.drivers.mic_array-Debug-9ab88d4081dfe19963cb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 31,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/drivers/mic_array"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/drivers/qspi_flash",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.drivers.qspi_flash-Debug-099b28b5d25b256e8833.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 31,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/drivers/qspi_flash"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/drivers/rpc",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.drivers.rpc-Debug-0a4e2bc9b97f28279dfd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 31,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/drivers/rpc"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/drivers/spi",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.drivers.spi-Debug-26f22496670f4097d0cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 31,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/drivers/spi"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/drivers/swmem",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.drivers.swmem-Debug-859b0c19f971427d9ed3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 31,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/drivers/swmem"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/drivers/trace",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.drivers.trace-Debug-d3551f201e2bb60113c7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 31,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/drivers/trace"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/drivers/uart",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.drivers.uart-Debug-01293bded20abfe4848c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 31,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/drivers/uart"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/drivers/usb",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.drivers.usb-Debug-fdfc74aae8449ed73bac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 31,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/drivers/usb"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/drivers/wifi",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.drivers.wifi-Debug-160fb78fe48571d9dc69.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 31,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/drivers/wifi"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/FreeRTOS",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.FreeRTOS-Debug-f6eecb50d7cb3ee4ccd4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/FreeRTOS"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/osal",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.osal-Debug-94b930a235cd098d241d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/osal"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/rtos_support",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.rtos_support-Debug-be9718e9401adf27dcdb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/rtos_support"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/sw_services",
+					"childIndexes" : 
+					[
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63
+					],
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.sw_services-Debug-d6246011847337faa7dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/sw_services"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/sw_services/concurrency_support",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.sw_services.concurrency_support-Debug-a43b79c4ff969ab31cd8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 51,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/sw_services/concurrency_support"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/sw_services/device_control",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.sw_services.device_control-Debug-746cc787be2afc41dce6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 51,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/sw_services/device_control"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/sw_services/dhcpd",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.sw_services.dhcpd-Debug-ebe85ec92597f66d5898.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 51,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/sw_services/dhcpd"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/sw_services/fatfs",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.sw_services.fatfs-Debug-f905f67c3db1a42914e7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 51,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/sw_services/fatfs"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/sw_services/generic_pipeline",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.sw_services.generic_pipeline-Debug-d8f73e86490039426a03.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 51,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/sw_services/generic_pipeline"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/sw_services/http",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.sw_services.http-Debug-ee4d6e2e7c4f72f464ca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 51,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/sw_services/http"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/sw_services/json",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.sw_services.json-Debug-d081ad419f59cd9bbe85.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 51,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/sw_services/json"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/sw_services/mqtt",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.sw_services.mqtt-Debug-99eeb630e89bee3ad5cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 51,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/sw_services/mqtt"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/sw_services/sntpd",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.sw_services.sntpd-Debug-58dfa4eaefa73972e8d5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 51,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/sw_services/sntpd"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/sw_services/tls_support",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.sw_services.tls_support-Debug-43206040bf3ad192ccc7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 51,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/sw_services/tls_support"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/sw_services/usb",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.sw_services.usb-Debug-927e0461d3e23011ffe7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 51,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/sw_services/usb"
+				},
+				{
+					"build" : "xcore_sdk/modules/rtos/modules/sw_services/wifi_manager",
+					"jsonFile" : "directory-xcore_sdk.modules.rtos.modules.sw_services.wifi_manager-Debug-710c408c95ace147f3f2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 51,
+					"projectIndex" : 5,
+					"source" : "xcore_sdk/modules/rtos/modules/sw_services/wifi_manager"
+				},
+				{
+					"build" : "xcore_sdk/modules/voice",
+					"childIndexes" : 
+					[
+						65
+					],
+					"jsonFile" : "directory-xcore_sdk.modules.voice-Debug-cede692845eda5f9fa20.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 6,
+					"source" : "xcore_sdk/modules/voice"
+				},
+				{
+					"build" : "xcore_sdk/modules/voice/modules",
+					"childIndexes" : 
+					[
+						66,
+						67,
+						68,
+						69,
+						70,
+						71
+					],
+					"jsonFile" : "directory-xcore_sdk.modules.voice.modules-Debug-ff87e83050a64867d98c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 64,
+					"projectIndex" : 6,
+					"source" : "xcore_sdk/modules/voice/modules"
+				},
+				{
+					"build" : "xcore_sdk/modules/voice/modules/lib_vnr",
+					"jsonFile" : "directory-xcore_sdk.modules.voice.modules.lib_vnr-Debug-7cedb1d31c6d088897c2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 65,
+					"projectIndex" : 6,
+					"source" : "xcore_sdk/modules/voice/modules/lib_vnr",
+					"targetIndexes" : 
+					[
+						18,
+						19
+					]
+				},
+				{
+					"build" : "xcore_sdk/modules/voice/modules/lib_ns",
+					"jsonFile" : "directory-xcore_sdk.modules.voice.modules.lib_ns-Debug-9f747db03aa10a3f1c74.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 65,
+					"projectIndex" : 6,
+					"source" : "xcore_sdk/modules/voice/modules/lib_ns",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "xcore_sdk/modules/voice/modules/lib_aec",
+					"jsonFile" : "directory-xcore_sdk.modules.voice.modules.lib_aec-Debug-ba6e6e1cff3da270955c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 65,
+					"projectIndex" : 6,
+					"source" : "xcore_sdk/modules/voice/modules/lib_aec",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "xcore_sdk/modules/voice/modules/lib_ic",
+					"jsonFile" : "directory-xcore_sdk.modules.voice.modules.lib_ic-Debug-fe55ecb1e60bf2cda926.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 65,
+					"projectIndex" : 6,
+					"source" : "xcore_sdk/modules/voice/modules/lib_ic",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "xcore_sdk/modules/voice/modules/lib_agc",
+					"jsonFile" : "directory-xcore_sdk.modules.voice.modules.lib_agc-Debug-45aa2b832695d9bbd967.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 65,
+					"projectIndex" : 6,
+					"source" : "xcore_sdk/modules/voice/modules/lib_agc",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "xcore_sdk/modules/voice/modules/lib_adec",
+					"jsonFile" : "directory-xcore_sdk.modules.voice.modules.lib_adec-Debug-fdce4af6120d8b2e0f50.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 65,
+					"projectIndex" : 6,
+					"source" : "xcore_sdk/modules/voice/modules/lib_adec",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "xcore_sdk/modules/sample_rate_conversion",
+					"jsonFile" : "directory-xcore_sdk.modules.sample_rate_conversion-Debug-fa3492b7268cb28170c4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "xcore_sdk/modules/sample_rate_conversion",
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"build" : "xcore_sdk/modules/xscope_fileio",
+					"jsonFile" : "directory-xcore_sdk.modules.xscope_fileio-Debug-4a82ee433b3a2dbad31d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "xcore_sdk/modules/xscope_fileio"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "xmos_project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						22,
+						25,
+						27
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						72,
+						73
+					],
+					"name" : "xcore_sdk",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					],
+					"name" : "framework_core",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						20,
+						21,
+						24
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						18,
+						19,
+						20,
+						21,
+						24,
+						25,
+						26,
+						27
+					],
+					"name" : "framework_io",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						22,
+						23
+					],
+					"name" : "lib_mic_array",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63
+					],
+					"name" : "framework_rtos",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71
+					],
+					"name" : "fwk_voice",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "debug_xmos_project::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-debug_xmos_project-Debug-b22972e7a2d2cf3920ca.json",
+					"name" : "debug_xmos_project",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "flash_app_xmos_project::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flash_app_xmos_project-Debug-8baa0505dd16ff9e8126.json",
+					"name" : "flash_app_xmos_project",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "framework_core_clock_control::@d70371bb577553270105",
+					"jsonFile" : "target-framework_core_clock_control-Debug-b8c77891c5e45c5d5e9e.json",
+					"name" : "framework_core_clock_control",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "framework_core_dsp_filters::@0e9ed345ae4894aa3a46",
+					"jsonFile" : "target-framework_core_dsp_filters-Debug-bcd738f3c5b492645495.json",
+					"name" : "framework_core_dsp_filters",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "framework_core_l2_cache::@f859b9e3034de0d6ecd6",
+					"jsonFile" : "target-framework_core_l2_cache-Debug-713401476071c484b8b7.json",
+					"name" : "framework_core_l2_cache",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "framework_core_otpinfo::@fc25b90383dbd7fd5629",
+					"jsonFile" : "target-framework_core_otpinfo-Debug-8b33e755d22cc46da651.json",
+					"name" : "framework_core_otpinfo",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "framework_core_random::@c64b8233711324d5d72c",
+					"jsonFile" : "target-framework_core_random-Debug-67a81d33ebbf92e5ab79.json",
+					"name" : "framework_core_random",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "framework_core_trycatch::@4f7491fa7ec29b414253",
+					"jsonFile" : "target-framework_core_trycatch-Debug-03734bbe60e8bce76498.json",
+					"name" : "framework_core_trycatch",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "framework_io_i2c::@722fef7eeb8d1b6d650a",
+					"jsonFile" : "target-framework_io_i2c-Debug-b6669691259afc076c2e.json",
+					"name" : "framework_io_i2c",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "framework_io_i2s::@44d7a5542d4fa23d0720",
+					"jsonFile" : "target-framework_io_i2s-Debug-79d3d65b1aa9b053d1e8.json",
+					"name" : "framework_io_i2s",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "framework_io_qspi_io::@48114ef015800c2f4135",
+					"jsonFile" : "target-framework_io_qspi_io-Debug-791eca9d44b335d59728.json",
+					"name" : "framework_io_qspi_io",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "framework_io_spi::@aef1a38c7e265808cc4b",
+					"jsonFile" : "target-framework_io_spi-Debug-3dd14dd1ccf8201efb0f.json",
+					"name" : "framework_io_spi",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "framework_io_uart::@a24de6986752bcb373d5",
+					"jsonFile" : "target-framework_io_uart-Debug-5f37599c42fe77c1e583.json",
+					"name" : "framework_io_uart",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 71,
+					"id" : "fwk_voice_module_lib_adec::@7a68513b7dc6942fd1f6",
+					"jsonFile" : "target-fwk_voice_module_lib_adec-Debug-d0714eed56b3b25d4f69.json",
+					"name" : "fwk_voice_module_lib_adec",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 68,
+					"id" : "fwk_voice_module_lib_aec::@c2f89f7f6add45c8854b",
+					"jsonFile" : "target-fwk_voice_module_lib_aec-Debug-b45df6e162c9cc194041.json",
+					"name" : "fwk_voice_module_lib_aec",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 70,
+					"id" : "fwk_voice_module_lib_agc::@9f0a3d2cdc944baf350a",
+					"jsonFile" : "target-fwk_voice_module_lib_agc-Debug-0efc9dc061a4b6dcafbd.json",
+					"name" : "fwk_voice_module_lib_agc",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 69,
+					"id" : "fwk_voice_module_lib_ic::@853669e1661ad918699c",
+					"jsonFile" : "target-fwk_voice_module_lib_ic-Debug-649d1b8aab5c12e392c2.json",
+					"name" : "fwk_voice_module_lib_ic",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 67,
+					"id" : "fwk_voice_module_lib_ns::@d433c6d3c974571bbfbd",
+					"jsonFile" : "target-fwk_voice_module_lib_ns-Debug-0289644a4f1e8f3ee706.json",
+					"name" : "fwk_voice_module_lib_ns",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 66,
+					"id" : "fwk_voice_module_lib_vnr_features::@f7bf634fcabeb2a68c1b",
+					"jsonFile" : "target-fwk_voice_module_lib_vnr_features-Debug-196ad5a9b6da86cdc809.json",
+					"name" : "fwk_voice_module_lib_vnr_features",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 66,
+					"id" : "fwk_voice_module_lib_vnr_inference::@f7bf634fcabeb2a68c1b",
+					"jsonFile" : "target-fwk_voice_module_lib_vnr_inference-Debug-20e30a30e121a3b56b5c.json",
+					"name" : "fwk_voice_module_lib_vnr_inference",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "inferencing_lib_nn::@0a8d426102e9f81d0354",
+					"jsonFile" : "target-inferencing_lib_nn-Debug-bc07ea68bee70452da33.json",
+					"name" : "inferencing_lib_nn",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "inferencing_tflite_micro::@0a8d426102e9f81d0354",
+					"jsonFile" : "target-inferencing_tflite_micro-Debug-3b0b80da2c3265607ca4.json",
+					"name" : "inferencing_tflite_micro",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "install_xmos_project::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-install_xmos_project-Debug-0829afbe1ea8686033ed.json",
+					"name" : "install_xmos_project",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "lib_mic_array::@aa3809b03f4f12aa82ac",
+					"jsonFile" : "target-lib_mic_array-Debug-3fbcabbd3fef973c0860.json",
+					"name" : "lib_mic_array",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "lib_xcore_math::@f87c288d49ae43fd15e6",
+					"jsonFile" : "target-lib_xcore_math-Debug-18b53025b249ee3a9872.json",
+					"name" : "lib_xcore_math",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_xmos_project::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_xmos_project-Debug-1fae4e66fe95a723470c.json",
+					"name" : "run_xmos_project",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 72,
+					"id" : "xcore_sdk_modules_lib_src::@0f5730502347226fc7fa",
+					"jsonFile" : "target-xcore_sdk_modules_lib_src-Debug-43ff2afc1fee0e95686d.json",
+					"name" : "xcore_sdk_modules_lib_src",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xmos_project::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xmos_project-Debug-fc084244f179ff64e1d6.json",
+					"name" : "xmos_project",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/user/xmos-template/build",
+		"source" : "/home/user/xmos-template"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

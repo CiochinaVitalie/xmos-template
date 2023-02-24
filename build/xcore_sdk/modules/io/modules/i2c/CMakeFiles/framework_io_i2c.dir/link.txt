@@ -1,0 +1,2 @@
+xmosar qc libframework_io_i2c.a CMakeFiles/framework_io_i2c.dir/src/i2c_master.c.obj CMakeFiles/framework_io_i2c.dir/src/i2c_slave.c.obj
+echo libframework_io_i2c.a

@@ -1,0 +1,85 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/user/XMOS/XTC/15.1.4/bin/xcc 
+Build flags: -march=xs3a
+Id flags:  
+
+The output was:
+1
+xcc: error: no xn source file and no -target option
+xcc: error: use -print-targets to list supported targets
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/user/XMOS/XTC/15.1.4/bin/xcc 
+Build flags: -march=xs3a;-std=c++11
+Id flags:  
+
+The output was:
+1
+xcc: error: no xn source file and no -target option
+xcc: error: use -print-targets to list supported targets
+
+
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+xcc: Build 14-f1fa60c, Jan-13-2022
+XTC version: 15.1.4
+Copyright (C) XMOS Limited 2008-2021. All Rights Reserved.
+
+Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+xcc: Build 14-f1fa60c, Jan-13-2022
+XTC version: 15.1.4
+Copyright (C) XMOS Limited 2008-2021. All Rights Reserved.
+
+Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple LLVM version)":
+xcc: Build 14-f1fa60c, Jan-13-2022
+XTC version: 15.1.4
+Copyright (C) XMOS Limited 2008-2021. All Rights Reserved.
+
+Checking whether the ASM compiler is ARMClang using "--version" did not match "armclang":
+xcc: Build 14-f1fa60c, Jan-13-2022
+XTC version: 15.1.4
+Copyright (C) XMOS Limited 2008-2021. All Rights Reserved.
+
+Checking whether the ASM compiler is HP using "-V" did not match "HP C":
+xcc: unrecognized option `-V'
+xcc: no input files
+Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
+xcc: Build 14-f1fa60c, Jan-13-2022
+XTC version: 15.1.4
+Copyright (C) XMOS Limited 2008-2021. All Rights Reserved.
+
+Checking whether the ASM compiler is IntelLLVM using "--version" did not match "(Intel[^
+]+oneAPI)":
+xcc: Build 14-f1fa60c, Jan-13-2022
+XTC version: 15.1.4
+Copyright (C) XMOS Limited 2008-2021. All Rights Reserved.
+
+Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
+xcc: unrecognized option `-V'
+xcc: no input files
+Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
+xcc: unrecognized option `-qversion'
+xcc: no input files
+Checking whether the ASM compiler is MSVC using "-?" did not match "Microsoft":
+xcc: unrecognized option `-?'
+xcc: no input files
+Checking whether the ASM compiler is TI using "-h" did not match "Texas Instruments":
+xcc: unrecognized option `-h'
+xcc: no input files
+Checking whether the ASM compiler is IAR using "" did not match "IAR Assembler":
+xcc: no input files
+Checking whether the ASM compiler is ARMCC using "" did not match "(ARM Compiler)|(ARM Assembler)":
+xcc: no input files
+Checking whether the ASM compiler is NASM using "-v" did not match "(NASM version)":
+xcc: no input files
+Checking whether the ASM compiler is YASM using "--version" did not match "(yasm)":
+xcc: Build 14-f1fa60c, Jan-13-2022
+XTC version: 15.1.4
+Copyright (C) XMOS Limited 2008-2021. All Rights Reserved.
+
+Checking whether the ASM compiler is ADSP using "-version" did not match "Analog Devices":
+xcc: unrecognized option `-version'
+xcc: no input files
+Checking whether the ASM compiler is QCC using "-V" did not match "gcc_nto":
+xcc: unrecognized option `-V'
+xcc: no input files

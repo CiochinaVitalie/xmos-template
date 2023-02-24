@@ -1,0 +1,2 @@
+xmosar qc libframework_io_uart.a CMakeFiles/framework_io_uart.dir/src/uart_rx.c.obj CMakeFiles/framework_io_uart.dir/src/uart_tx.c.obj CMakeFiles/framework_io_uart.dir/src/uart_util.c.obj
+echo libframework_io_uart.a

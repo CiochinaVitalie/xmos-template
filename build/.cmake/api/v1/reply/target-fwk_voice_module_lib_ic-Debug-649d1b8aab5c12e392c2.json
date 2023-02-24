@@ -1,0 +1,183 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "xcore_sdk/modules/voice/modules/lib_ic/libfwk_voice_module_lib_ic.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_compile_options",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"xcore_sdk/modules/voice/modules/lib_ic/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-march=xs3a -g"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Os"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/voice/modules/lib_ic/api"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/xs3_math/lib_xs3_math/lib_xcore_math/api"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/core/modules/xs3_math/lib_xs3_math/lib_xcore_math/src/etc/xmath_fft_lut"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/voice/modules/lib_aec/api"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/voice/modules/lib_aec/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/voice/modules/lib_vnr/api/features"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/voice/modules/lib_vnr/api/common"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/user/xmos-template/xcore_sdk/modules/voice/modules/lib_vnr/api/inference"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "inferencing_lib_nn::@0a8d426102e9f81d0354"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "inferencing_tflite_micro::@0a8d426102e9f81d0354"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "lib_xcore_math::@f87c288d49ae43fd15e6"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "fwk_voice_module_lib_vnr_inference::@f7bf634fcabeb2a68c1b"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "fwk_voice_module_lib_vnr_features::@f7bf634fcabeb2a68c1b"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "fwk_voice_module_lib_aec::@c2f89f7f6add45c8854b"
+		}
+	],
+	"id" : "fwk_voice_module_lib_ic::@853669e1661ad918699c",
+	"name" : "fwk_voice_module_lib_ic",
+	"nameOnDisk" : "libfwk_voice_module_lib_ic.a",
+	"paths" : 
+	{
+		"build" : "xcore_sdk/modules/voice/modules/lib_ic",
+		"source" : "xcore_sdk/modules/voice/modules/lib_ic"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "xcore_sdk/modules/voice/modules/lib_ic/src/ic.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "xcore_sdk/modules/voice/modules/lib_ic/src/ic_low_level.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
