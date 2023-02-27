@@ -37,7 +37,7 @@
                 "${workspaceFolder}/xcore_sdk/modules/voice/modules/lib_vnr/api",
                 "${workspaceFolder}/xcore_sdk/modules/xscope_fileio/xscope_fileio/xscope_fileio/api"
             ],
-            "defines": ["XSCOPE_IMPL"], //,"__XC__"
+            "defines": ["XSCOPE_IMPL","__XC__"], //
             // "compilerPath": "../XMOS/XTC/15.1.4/bin/xcc",
             "cStandard": "gnu11",
             "cppStandard": "gnu++14",
